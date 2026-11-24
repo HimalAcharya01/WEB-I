@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Web Tech Notebook</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo"><i class="fa-solid fa-book-open"></i> Web Tech Notebook</a>
+      <button class="nav-toggle" aria-label="menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" data-page="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+        <li><a href="about.html" data-page="about.html"><i class="fa-solid fa-user"></i> About Us</a></li>
+        <li><a href="contact.html" data-page="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <h1>Himal Acharya Web Tech Notebook</h1>
+      <p>This is where I keep track of what I build in the Web Tech lab. I started with plain HTML and have been adding a bit more every week. Nothing fancy here, just things I tried and what I learned from them.</p>
+
+      <h2>Lab work so far</h2>
+      <div class="lab-grid">
+        <div class="lab-box">
+          <h3><i class="fa-solid fa-file-code"></i> HTML basics</h3>
+          <p>Headings, lists, tables and links. My first page was ugly but it worked.</p>
+        </div>
+        <div class="lab-box">
+          <h3><i class="fa-solid fa-palette"></i> CSS and layout</h3>
+          <p>Flexbox for the menu, Grid for these boxes. Grid took me a while to get used to.</p>
+        </div>
+        <div class="lab-box">
+          <h3><i class="fa-brands fa-js"></i> JavaScript</h3>
+          <p>Form checking and the little menu button you see on phones.</p>
+        </div>
+        <div class="lab-box">
+          <h3><i class="fa-solid fa-sitemap"></i> XML, DTD and XSLT</h3>
+          <p>A bookstore example, shown in the browser with a stylesheet. XQuery was used to pick books costing more than 50.</p>
+        </div>
+        <div class="lab-box">
+        <h3><i class="fa-solid fa-database"></i> SQL practice</h3>
+        <p>Wrote queries to select, insert and update records in a student table.</p>
+</div>
+      </div>
+
+      <p class="note">Want to know more about the course or send a suggestion? Go to the <a href="contact.html">contact page</a>.</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>Made for the Web Tech I lab &middot; <span id="year">2026</span></p>
+  </footer>
+
+</body>
+</html>

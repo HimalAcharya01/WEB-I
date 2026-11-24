@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Web Tech Notebook</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo"><i class="fa-solid fa-book-open"></i> Web Tech Notebook</a>
+      <button class="nav-toggle" aria-label="menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" data-page="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+        <li><a href="about.html" data-page="about.html"><i class="fa-solid fa-user"></i> About Us</a></li>
+        <li><a href="contact.html" data-page="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <h1>About Us</h1>
+      <p class="justify">This site is a small project for the Web Tech lab. The idea was to make a few connected pages with a navigation bar, use CSS for the layout, and keep the code in separate files instead of writing everything in one place. That is why the styling is in one CSS file and the scripts are in one JavaScript file, and every page uses the same two.</p>
+      <p class="justify">While building it I found out that keeping things separate really does save time. When I wanted to change the colour of the menu I only had to edit one line, and all three pages changed together. Before this I would have copied the style into every page.</p>
+
+      <h2>What I used</h2>
+      <ul class="tools">
+        <li><i class="fa-brands fa-html5"></i> HTML for the structure of each page</li>
+        <li><i class="fa-brands fa-css3-alt"></i> CSS with Flexbox and Grid for the layout</li>
+        <li><i class="fa-brands fa-js"></i> JavaScript for the menu button and the contact form</li>
+        <li><i class="fa-brands fa-github"></i> GitHub Pages to put it online</li>
+      </ul>
+    </div>
+  </main>
+
+  <footer>
+    <p>Made for the Web Tech I lab &middot; <span id="year">2026</span></p>
+  </footer>
+
+</body>
+</html>
